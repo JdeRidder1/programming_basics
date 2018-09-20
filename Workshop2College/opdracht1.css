@@ -1,0 +1,60 @@
+
+
+
+body{
+    color:white;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;   
+  
+}
+
+
+.container {
+    display: flex;
+    border: black;
+    overflow: hidden;
+    width: 608px;
+    align-items: center;
+    height: 100vh;
+   
+    
+    
+}
+
+.box {
+    border: 2px solid darkblue;
+     width: 300px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-box{
+   transform:rotate(20deg);
+    
+}
+
+.right-box {
+    direction: rtl;
+    transform:rotate(-20deg);
+    animation-duration: 10s;
+    animation-name: spinning;
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: spinning;
+}
+
+@keyframes spinning {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
