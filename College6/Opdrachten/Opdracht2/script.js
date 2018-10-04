@@ -1,7 +1,7 @@
-//	Schrijf een functie countdown die van 10 - 1 aftelt 
-//(dit wordt ook in de console getoond). 
-//Geef aan de functie een jaartal parameter mee die als hij bij ‘0’ is zegt 
-//‘Happy {jaartal}’.
+/*	Schrijf een functie countdown die van 10 - 1 aftelt 
+(dit wordt ook in de console getoond). 
+Geef aan de functie een jaartal parameter mee die als hij bij ‘0’ is zegt 
+‘Happy {jaartal}’. */
 
 
 function  countDown(num) {

@@ -1,6 +1,6 @@
-//  1.	Maak een functie die random een element uit de volgende array retourneert.
-//const lapRounds = [2.99,  3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12]; 
-//Tip: gebruik Math.random (zie bijvoorbeeld: https://www.geeksforgeeks.org/javascript-math-random-function/ )
+/*  1.	Maak een functie die random een element uit de volgende array retourneert.
+const lapRounds = [2.99,  3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12]; 
+Tip: gebruik Math.random (zie bijvoorbeeld: https://www.geeksforgeeks.org/javascript-math-random-function/ ) */
 
 
 
