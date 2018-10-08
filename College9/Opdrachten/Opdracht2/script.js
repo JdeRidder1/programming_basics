@@ -21,13 +21,8 @@
         ]
               
 
-        teachers.forEach(function(element, index, array){
-            console.log(`I have a ${element.profession} named ${element.name} and he likes to work on a ${element.brand} computer`);
+        teachers.forEach(function(Loek){
+            console.log(`I have a ${teachers.profession} named ${teachers.name} and he likes to work on a ${teachers.brand} computer`);
         });
         
-//methode 2
-
-        for (let index = 0; index < teachers.lenght; index++) {
-            const element = teachers[index]
-            console.log(`I have a ${element.profession} named ${element.name} and he likes to work on a ${element.brand} computer`);
-        }
+console.log(Loek);
