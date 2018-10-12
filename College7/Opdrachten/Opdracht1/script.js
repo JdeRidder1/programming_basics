@@ -1,29 +1,18 @@
-/*  1.	Maak een functie die random een element uit de volgende array retourneert.
-const lapRounds = [2.99,  3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12]; 
-Tip: gebruik Math.random (zie bijvoorbeeld: https://www.geeksforgeeks.org/javascript-math-random-function/ ) */
+// 1.Maak een functie die random een element uit de volgende array retourneert.
+// const lapRounds = [2.99,  3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12]; 
+// Tip: gebruik Math.random (zie bijvoorbeeld: https://www.geeksforgeeks.org/javascript-math-random-function/ )
 
+const lapRounds = [2.99, 3.00, 3.01, 4.01, 2.79, 2.88, 3.10, 4.12];
 
-
-function randomItem(lapRounds)
-{
-  
-return lapRounds[Math.floor(Math.random()*lapRounds.length)];
-     
+const getRandomLapRound = function (min, max) {
+    // Math.random gives a number between 0 and 1
+    // Example: number between 2 and 6
+    // Math.random gives 0.7. 
+    // 0.7 * (6 - 2) = 2.8 
+    // 2.8 + 2 = 4.8
+    // randomIndex = Math.floor(4.8) = 4
+    let randomIndex = Math.floor(Math.random() * (max - min)) + min;
+    console.log(randomIndex);
 }
 
-const lapRounds = [
-    "2.99",
-    "3.00", 
-    "3.01", 
-    "4.01", 
-    "2.79", 
-    "2.88", 
-    "3.10", 
-    "4.12"
-    ];
-console.log('Random getal uit de lapRounds reeks: '+randomItem(lapRounds));
-
-
-
-
-
+getRandomLapRound(2, 6);

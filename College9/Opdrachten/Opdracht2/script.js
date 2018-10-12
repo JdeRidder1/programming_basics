@@ -1,28 +1,14 @@
-/*2.    Gebruik een for-loop of foreach-loop en print voor elk object de regel: “I have a [profession] named [name] and he likes to work on a [brand] computer”. 
-        De vierkante haken zijn placeholders voor de bijbehorende properties uit de objecten hierboven. */
-        
-        
-        const teachers = [
-            {
-                name: "Loek",
-                profession: "Teacher",
-                brand: "Linux"
-            },
-            {
-                name: "Daan",
-                profession: "Teacher",
-                brand: "Arduino"
-            },
-            {
-                name: "Rimmert",
-                profession: "Teacher",
-                brand: "Apple"
-            }
-        ]
-              
+// 2. Zorg ervoor dat alle even elementen een andere achtergrondkleur krijgen. Gebruik hiervoor JS en maak zoveel mogelijke gebruik van functies.
+// i will be useing the same table as in assignment 1.
 
-        teachers.forEach(function(Loek){
-            console.log(`I have a ${teachers.profession} named ${teachers.name} and he likes to work on a ${teachers.brand} computer`);
-        });
-        
-console.log(Loek);
+function changeBackground() {
+    const table = document.getElementById('courses');
+    const rows = table.getElementsByTagName("tr"); //get all the rows of the table
+    for (i = 0; i < rows.length; i++) {
+        //manipulate rows 
+        if (i % 2 == 0) {
+            rows[i].classList.add('even');
+        }
+    }
+}
+changeBackground();
