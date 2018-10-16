@@ -11,7 +11,7 @@ const allMyRecords = [
 ];
 
 for (let i = 0; i < allMyRecords.length; i++) {
-  for (let j = 0; j < allMyRecords[i].length; j++) {
-      console.log(allMyRecords[i][j])    
+  for (let k = 0; k < allMyRecords[i].length; k++) {
+      console.log(allMyRecords[i][k])    
   }
 }

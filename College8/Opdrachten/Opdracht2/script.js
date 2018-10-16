@@ -26,3 +26,4 @@ for (let index = 0; index < teachers.length; index++) {
 const element = teachers[index];
 console.log(`I have a ${element.profession} named ${element.name} and he likes to work on a/an ${element.brand}`);
 }
+

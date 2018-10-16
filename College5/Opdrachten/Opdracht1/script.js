@@ -2,7 +2,9 @@
 let counter = 0;
 while(counter < 25){
     if((counter % 4 == 0) && counter != 0){
-        console.log('deelbaar door 4:', counter);
+        console.log( counter + ' is deelbaar door 4');
+    } else if ((counter % 4 != 0) && counter != 0) {
+        console.log( counter + ' is niet deelbaar door 4');
     }
     counter++;
 }

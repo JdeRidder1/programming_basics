@@ -4,4 +4,4 @@ let sumOfNumbers = 0;
 myArray.forEach(function(element, index, array){
   sumOfNumbers += element;
 });
-console.log(sumOfNumbers);
+console.log('de som van de array is: ', sumOfNumbers);

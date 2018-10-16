@@ -2,7 +2,7 @@
 // Verzin zelf bijpassende waardes. Voeg nu een methode “salaryPerHour” toe, met daarin een functie die print 
 // hoeveel de docenten per uur verdienen.
 
-// i use a generic function which is called from each of the objects in moreTeachers array. The this keyword references to the calling(current) object
+// I use a generic function which is called from each of the objects in moreTeachers array. The this keyword references to the calling(current) object
 const printSalaryPerHour = function () {
     console.log(`${this.name} earns ${this.salaryPerHour} per hour`);
 }

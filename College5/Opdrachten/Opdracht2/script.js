@@ -9,7 +9,7 @@ const fibonacci = function (num = 10) {
     let temporarySum = 0; //temp for switching numbers
   
     while (num >= 0) {
-      temporarySum = currentSum; //
+      temporarySum = currentSum; 
       currentSum = currentSum + lastSum;
       lastSum = temporarySum;
       //enter some console.logs for debugging purposes

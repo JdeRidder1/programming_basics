@@ -11,3 +11,4 @@ const lapRoundsJson = {
     "round7": 53.10,
     "round8": 54.12
 }
+console.log(lapRoundsJson);
