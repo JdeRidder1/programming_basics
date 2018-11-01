@@ -1,26 +1,27 @@
 // All global variables
 const imageFolder = "./assets/images/";
 const imagez = [{
-        position: 1,
-        name: 'transformers',
-        source: 'transformers-1.png'
-    },
-    {
-        position: 2,
-        name: 'transformers',
-        source: 'transformers-2.png'
-    },
-    {
-        position: 3,
-        name: 'transformers',
-        source: 'transformers-3.png'
-    },
-    {
-        position: 4,
-        name: 'transformers',
-        source: 'transformers-4.png'
-    }
+    position: 1,
+    name: 'transformers',
+    source: 'transformers-1.png'
+},
+{
+    position: 2,
+    name: 'transformers',
+    source: 'transformers-2.png'
+},
+{
+    position: 3,
+    name: 'transformers',
+    source: 'transformers-3.png'
+},
+{
+    position: 4,
+    name: 'transformers',
+    source: 'transformers-4.png'
+}
 ]
+
 let currentClick = 1;
 let attempts = 5;
 let imageId = null;
@@ -59,8 +60,8 @@ function clickHandler(event) {
             document.getElementById('message').innerText = 'We have a winner';
             imageId.removeEventListener('click', clickHandler);
         }
-    }  
-    
+    }
+
     if (attempts < 0) {
         document.getElementById('message').innerText = 'We have a loser'
         imageId.removeEventListener('click', clickHandler);

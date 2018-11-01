@@ -12,7 +12,7 @@ let errorText = "Oeps, check je invoer nogmaals...";
 /**
  * Function called after document is loaded
  *
- * @param e Load event (we won't use it, but keep in mind: a event -always- passes a parameter with information!)
+ * @param e Load event (we won't use it, but keep in mind: a event -always- passes a parameter with i nformation!)
  */
 function init(e) {
     //Add the table body & totalprice field to our global variables
