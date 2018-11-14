@@ -117,7 +117,7 @@ callback(10)     //roept de functie aan met de waarde 10 meegegeven, 10 word ing
 //* Arrays -------------------------------------------------------
 
 //de declaratie van arrays is eigenlijk hetzelfde als die van een variabele, je geeft de array aan met blokhaken
-//de informatie binnen een array scheid je met komma's
+//de informatie binnen een array scheidt je met komma's
 //als je een stuk info uit een array wilt hebben roep je de naam van de array op met vervolgens de index van het stuk date, let op! de index begint bij 0!
 
 //TODO voorbeeld:
@@ -157,7 +157,7 @@ myObject.Leeftijd;
 
 //TODO voorbeeld:
 
-const existingElement = document.getElementById('idname');              //haalt elementen op aan de hand van de id en voegt het toe aan een variabele
+const existingElement = document.getElementById('idname');      //haalt elementen op aan de hand van de id en voegt het toe aan een variabele
 document.getElementsByClassName('classname');   //haalt elementen op aan de hand van de class
 document.getElementsByTagName('tagname');       //haalt elementen op aan de hand van het type tag
 

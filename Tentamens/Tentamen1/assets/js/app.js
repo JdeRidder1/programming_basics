@@ -49,9 +49,11 @@ function clickHandler(event){
 function checkAnswer(){
     const answerText = document.getElementById('answerText');
     if(currentQuestion.answer == answer){
-        answerText.innerHTML = `Je antwoord is <span class="bg-green">${answer}</span> is helemaal goed! `;
+        answerText.innerHTML = `Je antwoord <span class="bg-green">${answer}</span> is helemaal goed! `;
+        console.log(`Je antwoord ${answer} is helemaal goed! `);
     } else {
         answerText.innerHTML = `Helaas, antwoord <span class="bg-red">${answer}</span> is niet goed, probeer het nog eens. `;
+        console.log(`Helaas, antwoord ${answer} is niet goed, probeer het nog eens. `);
     }
 }
 
